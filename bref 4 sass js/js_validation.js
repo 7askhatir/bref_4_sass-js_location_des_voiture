@@ -57,12 +57,6 @@ function envoyer(){
              }
          }
          
-      
- 
-
-
-
-
 
         function test(txt_defaut, nom_controle){
             var longeur =  document.getElementById(nom_controle).value.length;
@@ -74,7 +68,7 @@ function envoyer(){
 
 
 
-            if(nom_controle== "mail_inscr" ||nom_controle== "mail2_inscr" )
+            if(nom_controle == "mail_inscr" ||nom_controle== "mail2_inscr" )
             {
                 if(document.getElementById(nom_controle).value.indexOf('@')==-1 ||document.getElementById(nom_controle).value.indexOf('.')==-1 
                 || document.getElementById(nom_controle).value=="" || document.getElementById(nom_controle).value== txt_defaut  )
@@ -159,7 +153,7 @@ function envoyer(){
         }
 
 
-        // ****emel******
+   
 
 
 

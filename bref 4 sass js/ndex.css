@@ -7,6 +7,13 @@
           box-sizing: border-box;
 }
 
+.btn {
+  margin-left: 2%;
+  width: 100px;
+  height: 20px;
+  z-index: 30;
+}
+
 body {
   font-family: monospace;
   background-color: #000000;

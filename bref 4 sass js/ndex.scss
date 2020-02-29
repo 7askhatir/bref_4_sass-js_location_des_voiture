@@ -7,7 +7,12 @@ $w :#ffffff;
   list-style: none;
   box-sizing: border-box;
 }
-
+.btn{
+  margin-left: 2%;
+  width: 100px;
+  height: 20px;
+  z-index:30;
+}
 body {
   font-family: monospace;
   background-color: $bl;
@@ -416,6 +421,7 @@ header {
     font-size: 7px;
   }
 }
+// plus shadow/
 .reserver{
     width:auto;
     height: auto;
@@ -493,6 +499,7 @@ header {
             opacity: 1;
         }
     }
+    //  css reserve
 }
 .reservation{
   visibility: hidden;

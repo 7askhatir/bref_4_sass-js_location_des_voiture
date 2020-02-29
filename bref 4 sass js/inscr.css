@@ -147,10 +147,6 @@ a.active, a:hover {
   width: 200px;
 }
 
-.formul input[type="button"] a {
-  color: #ffffff;
-}
-
 select {
   border: none;
   border-radius: none;
